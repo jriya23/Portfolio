@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Riya Jain - Data Analyst</title>
+  <meta name="description" content="Explore Riya Jain's data analytics projects including Power BI dashboards, SQL analysis, and Python automation.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">RJ.</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section class="section" style="padding-top:7rem;position:relative;overflow:hidden;">
+    <div class="tech-grid-bg"></div>
+    <div class="binary-rain" id="binaryRain"></div>
+    <div class="section-container">
+      <div class="section-header fade-in">
+        <h2>My <span class="gradient-text">Projects</span></h2>
+        <div class="underline"></div>
+        <p>Real-world data analytics & visualization work</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 3 -->
+        <div class="glass-card project-card fade-in glow-border">
+          <div class="card-header">
+            <div class="card-icon">✈️</div>
+            <div>
+              <h3>Airline Customer Satisfaction</h3>
+              <span class="card-org">Personal Project</span>
+            </div>
+          </div>
+          <p class="card-desc">Analyzed over 100,000 airline customer records using SQL to identify key satisfaction drivers across travel class, loyalty status, and delay patterns — revealing that loyal business-class travelers had 30%+ higher satisfaction. Designed an interactive Power BI dashboard highlighting top 3 pain points.</p>
+          <div class="tags">
+            <span class="tag">SQL</span><span class="tag">Power BI</span><span class="tag">Excel</span><span class="tag">Statistical Analysis</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:1rem;">
+            <span style="color:var(--cyan);font-family:'Fira Code',monospace;font-size:0.8rem;">30%+ satisfaction gap</span>
+            <a href="https://github.com/jriya23/Airline-Customer-Satisfaction-Analysis" target="_blank" class="btn-secondary" style="padding:0.4rem 1rem;font-size:0.8rem;">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="glass-card project-card fade-in glow-border">
+          <div class="card-header">
+            <div class="card-icon">🛒</div>
+            <div>
+              <h3>E-Commerce Sales Analysis</h3>
+              <span class="card-org">Personal Project</span>
+            </div>
+          </div>
+          <p class="card-desc">Analyzed over 130,000 e-commerce transactions using Python to identify top-selling products, seasonal trends, and high-revenue regions — contributing to a 35% improvement in targeted marketing strategies. Automated data processing and KPI calculations, reducing manual reporting time by 60%.</p>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Matplotlib</span><span class="tag">Automation</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:1rem;">
+            <span style="color:var(--cyan);font-family:'Fira Code',monospace;font-size:0.8rem;">↓ 60% reporting time</span>
+            <a href="https://github.com/jriya23/E-Commerce-Sales-Analysis" target="_blank" class="btn-secondary" style="padding:0.4rem 1rem;font-size:0.8rem;">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 5: AALI Financial Analysis -->
+        <div class="glass-card project-card fade-in glow-border">
+          <div class="card-header">
+            <div class="card-icon">💹</div>
+            <div>
+              <h3>AALI Financial Analysis (2020–2023)</h3>
+              <span class="card-org">Personal Project</span>
+            </div>
+          </div>
+          <p class="card-desc">Analyzed 4 years of balance sheet data for Astra Agro Lestari Tbk (AALI) using key financial ratios — Current Ratio, Debt-to-Equity, Equity Ratio, and Net Fixed Assets — revealing strong liquidity (3.03x) and low leverage (0.17x) by 2023. Cash position improved from IDR 872B to IDR 1.87T.</p>
+          <div class="tags">
+            <span class="tag">Excel</span><span class="tag">Financial Ratios</span><span class="tag">Data Visualization</span><span class="tag">Balance Sheet</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:1rem;">
+            <span style="color:var(--cyan);font-family:'Fira Code',monospace;font-size:0.8rem;">3.03x liquidity · 0.17x leverage</span>
+            <a href="https://github.com/jriya23/aali-financial-analysis" target="_blank" class="btn-secondary" style="padding:0.4rem 1rem;font-size:0.8rem;">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 6: Tata IPL Auction Analysis -->
+        <div class="glass-card project-card fade-in glow-border">
+          <div class="card-header">
+            <div class="card-icon">🏏</div>
+            <div>
+              <h3>Tata IPL Auction Data Analysis</h3>
+              <span class="card-org">Personal Project</span>
+            </div>
+          </div>
+          <p class="card-desc">Scraped and analyzed IPL 2024 auction data — player names, franchises, roles, and bid amounts — using web scraping techniques. Cleaned and structured the data into CSV format to uncover franchise spending patterns, role-based auction dynamics, and player valuations.</p>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Web Scraping</span><span class="tag">CSV</span><span class="tag">Data Cleaning</span><span class="tag">IPL</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:1rem;">
+            <span style="color:var(--cyan);font-family:'Fira Code',monospace;font-size:0.8rem;">IPL 2024 · Auction Trends</span>
+            <a href="https://github.com/jriya23/Tata-IPL-Auction-Analysis" target="_blank" class="btn-secondary" style="padding:0.4rem 1rem;font-size:0.8rem;">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 7: Customer Retention Analysis -->
+        <div class="glass-card project-card fade-in glow-border">
+          <div class="card-header">
+            <div class="card-icon">🔄</div>
+            <div>
+              <h3>Customer Retention Analysis</h3>
+              <span class="card-org">Personal Project</span>
+            </div>
+          </div>
+          <p class="card-desc">Analyzed customer churn patterns using Python and Power BI to identify key risk factors. Built 3 interactive dashboards — Churn Overview, Customer Risk Analysis, and Retention Strategies — revealing that lower engagement and longer subscription durations drive higher churn rates.</p>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Power BI</span><span class="tag">Pandas</span><span class="tag">Seaborn</span><span class="tag">EDA</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:1rem;">
+            <span style="color:var(--cyan);font-family:'Fira Code',monospace;font-size:0.8rem;">3 Dashboards · Churn Risk</span>
+            <a href="https://github.com/jriya23/Customer-Retention-Analysis" target="_blank" class="btn-secondary" style="padding:0.4rem 1rem;font-size:0.8rem;">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 8: Zomato Analysis -->
+        <div class="glass-card project-card fade-in glow-border">
+          <div class="card-header">
+            <div class="card-icon">🍕</div>
+            <div>
+              <h3>Zomato Data Analysis</h3>
+              <span class="card-org">Personal Project</span>
+            </div>
+          </div>
+          <p class="card-desc">Performed end-to-end analysis of Zomato's business — restaurant listings, food delivery trends, pricing strategies, and competitor benchmarking against Swiggy & Food Panda. Built interactive dashboards in Power BI and Excel with SQL-driven data extraction and transformation.</p>
+          <div class="tags">
+            <span class="tag">SQL</span><span class="tag">Power BI</span><span class="tag">Excel</span><span class="tag">Business Intelligence</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-top:1rem;">
+            <span style="color:var(--cyan);font-family:'Fira Code',monospace;font-size:0.8rem;">Market Trends · Competitor Analysis</span>
+            <a href="https://github.com/jriya23/Zomato-Analysis" target="_blank" class="btn-secondary" style="padding:0.4rem 1rem;font-size:0.8rem;">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="index.html">Home</a><a href="about.html">About</a>
+        <a href="projects.html">Projects</a><a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p>© 2025 Riya Jain. Crafted with precision & data.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
